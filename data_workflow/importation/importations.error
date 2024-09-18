@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "/home/eva/FAIRsoft/FAIRsoft_ETL/agents_importers/bioconductor/importer.py", line 301, in <module>
+    print("Package %d of %d"%(n, len(urls)), end='\r')
+  File "/home/eva/FAIRsoft/FAIRsoft_ETL/agents_importers/bioconductor/importer.py", line 50, in getHTML
+    bsObj = BeautifulSoup(re.content, 'html5lib', from_encoding=encoding)
+  File "/usr/local/lib/python3.6/dist-packages/bs4/__init__.py", line 313, in __init__
+    self._feed()
+  File "/usr/local/lib/python3.6/dist-packages/bs4/__init__.py", line 382, in _feed
+    self.builder.feed(self.markup)
+  File "/usr/local/lib/python3.6/dist-packages/bs4/builder/_html5lib.py", line 76, in feed
+    doc = parser.parse(markup, **extra_kwargs)
+  File "/usr/lib/python3/dist-packages/html5lib/html5parser.py", line 235, in parse
+    self._parse(stream, False, None, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/html5lib/html5parser.py", line 89, in _parse
+    self.mainLoop()
+  File "/usr/lib/python3/dist-packages/html5lib/html5parser.py", line 161, in mainLoop
+    for token in self.normalizedTokens():
+  File "/usr/lib/python3/dist-packages/html5lib/html5parser.py", line 220, in normalizedTokens
+    for token in self.tokenizer:
+  File "/usr/lib/python3/dist-packages/html5lib/_tokenizer.py", line 62, in __iter__
+    while self.tokenQueue:
+KeyboardInterrupt

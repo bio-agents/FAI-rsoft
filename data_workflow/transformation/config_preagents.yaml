@@ -1,0 +1,12 @@
+source:
+ - bioconductor
+ - bioconda
+ - bioagents
+ - agentshed
+ - galaxy_metadata
+ - sourceforge
+ - galaxy
+ - opeb_metrics
+ - bioconda_recipes
+ - bioconda_conda
+ - repository
