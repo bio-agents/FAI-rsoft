@@ -1,12 +1,3 @@
-source:
- - bioconductor
- - bioconda
- - bioagents
- - agentshed
- - galaxy_metadata
- - sourceforge
- - galaxy
- - opeb_metrics
- - bioconda_recipes
- - bioconda_conda
- - repository
+version https://git-lfs.github.com/spec/v1
+oid sha256:d2051a43b22d8e97dd942307446ee785f5733982646d374cc4f16ed197e7084a
+size 174
